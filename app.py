@@ -433,12 +433,12 @@ if len(df) == 0:
 
 
 tabs = st.tabs([
-    "📊 Vue d’ensemble",
-    "⚡ Interventions",
-    "💰 Revenus & paiements",
-    "👷 Équipe & performance",
-    "🗺️ Carte Côte d’Ivoire",
-    "📋 Données",
+    "Vue d’ensemble",
+    "Interventions",
+    "Revenus & paiements",
+    "Équipe & performance",
+    "Carte Côte d’Ivoire",
+    "Données",
 ])
 
 
@@ -715,4 +715,4 @@ with tabs[5]:
 
 
 st.markdown("---")
-st.caption("INEVOKE SARL — Dashboard Marché Énergie Renouvelable · Streamlit · Plotly · KoboToolbox")
+st.caption("INEVOKE SARL — Dashboard Marché Énergie Renouvelable ")
